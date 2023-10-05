@@ -43,6 +43,13 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+  .pet-cards {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -51,6 +58,15 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 70vw;
+  }
+  .pet-cards {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
@@ -80,4 +96,8 @@ a {
   border-top-left-radius: 2px;
   color: var(--light-color);
   text-transform: uppercase;
+}
+
+.img {
+  border-radius: 20px;
 }
