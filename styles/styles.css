@@ -2,6 +2,7 @@
   font-family: "Nunito", sans-serif;
   --main-color: #ed6436;
   --dark-color: #181818;
+  --light-color: #fff;
 }
 
 *,
@@ -14,7 +15,9 @@ html {
   font: "Nunito", "Nunito Extrabold";
 }
 
-body {
+body,
+h1,
+h2 {
   margin: 0;
 }
 
@@ -26,4 +29,41 @@ ul {
 
 a {
   color: inherit;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro > h1 {
+  font-size: 1rem;
+  color: var(--main-color);
+}
+
+.intro > h2 {
+  font-size: 3rem;
+}
+
+.button {
+  width: 10em;
+  height: 5em;
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  padding: 10px;
+  border-radius: 25px;
+  border-top-left-radius: 2px;
+  color: var(--light-color);
 }
