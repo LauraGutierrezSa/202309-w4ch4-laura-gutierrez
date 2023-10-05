@@ -107,3 +107,7 @@ button:hover {
 .img {
   border-radius: 20px;
 }
+
+.img:hover {
+  filter: brightness(50%);
+}
