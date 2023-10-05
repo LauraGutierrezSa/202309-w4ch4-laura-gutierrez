@@ -36,22 +36,22 @@ a {
   padding: 1rem;
 }
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (max-width: 767px) {
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
-.introduction :nth-child(n) {
-  padding-bottom: 0.5rem;
-}
-
-.intro {
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (min-width: 767px) {
+  .intro {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .introduction__heading {
@@ -62,7 +62,12 @@ a {
 }
 
 .introduction__h2 {
+  font-weight: 800;
   font-size: 2rem;
+}
+
+.introduction :nth-child(n) {
+  padding-bottom: 0.5rem;
 }
 
 .button {
