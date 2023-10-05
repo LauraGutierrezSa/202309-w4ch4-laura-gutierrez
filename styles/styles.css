@@ -43,12 +43,17 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+
   .pet-cards {
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+
+  .img {
+    border-radius: 20px;
   }
 }
 
@@ -60,6 +65,7 @@ a {
     align-items: center;
     width: 70vw;
   }
+
   .pet-cards {
     padding-top: 1rem;
     display: flex;
@@ -67,6 +73,12 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+  }
+
+  .img {
+    width: 250;
+    height: 300;
+    border-radius: 20px;
   }
 }
 
