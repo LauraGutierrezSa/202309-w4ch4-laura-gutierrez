@@ -29,6 +29,7 @@ ul {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .padding {
@@ -41,6 +42,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+.introduction :nth-child(n) {
+  padding-bottom: 0.5rem;
+}
+
 .intro {
   display: inline-block;
   flex-direction: column;
@@ -52,6 +58,7 @@ a {
   font-size: 1rem;
   color: var(--main-color);
   text-transform: uppercase;
+  display: block;
 }
 
 .introduction__h2 {
