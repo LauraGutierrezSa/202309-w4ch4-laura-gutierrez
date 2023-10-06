@@ -81,6 +81,15 @@ a {
   }
 }
 
+.header {
+  padding: 5px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 3px rgba(0, 0, 0, 0.055);
+}
+
 .introduction__heading {
   font-size: 1rem;
   color: var(--main-color);
